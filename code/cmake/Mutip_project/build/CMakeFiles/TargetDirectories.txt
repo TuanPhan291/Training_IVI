@@ -1,0 +1,3 @@
+/mnt/d/Fresher_C++/baitap/Mutip_project/build/CMakeFiles/main.dir
+/mnt/d/Fresher_C++/baitap/Mutip_project/build/CMakeFiles/edit_cache.dir
+/mnt/d/Fresher_C++/baitap/Mutip_project/build/CMakeFiles/rebuild_cache.dir

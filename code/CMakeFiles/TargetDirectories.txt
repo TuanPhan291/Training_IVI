@@ -1,0 +1,3 @@
+/mnt/d/Fresher_C++/assignment/code/CMakeFiles/main.dir
+/mnt/d/Fresher_C++/assignment/code/CMakeFiles/edit_cache.dir
+/mnt/d/Fresher_C++/assignment/code/CMakeFiles/rebuild_cache.dir

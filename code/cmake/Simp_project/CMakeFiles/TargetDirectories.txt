@@ -1,0 +1,3 @@
+/mnt/d/Fresher_C++/baitap/Simp_project/CMakeFiles/project.dir
+/mnt/d/Fresher_C++/baitap/Simp_project/CMakeFiles/edit_cache.dir
+/mnt/d/Fresher_C++/baitap/Simp_project/CMakeFiles/rebuild_cache.dir
