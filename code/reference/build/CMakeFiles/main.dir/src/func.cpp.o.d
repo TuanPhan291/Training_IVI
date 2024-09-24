@@ -1,7 +1,7 @@
-CMakeFiles/main.dir/src/main.cpp.o: \
- /mnt/d/Fresher_C++/assignment/code/Test/src/main.cpp \
+CMakeFiles/main.dir/src/func.cpp.o: \
+ /mnt/d/Fresher_C++/assignment/code/reference/src/func.cpp \
  /usr/include/stdc-predef.h \
- /mnt/d/Fresher_C++/assignment/code/Test/include/func.h \
+ /mnt/d/Fresher_C++/assignment/code/reference/include/func.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
