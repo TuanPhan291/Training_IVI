@@ -1,26 +1,56 @@
 #include "func.h"
 
+struct my_struct
+{
+    my_struct(int &z) 
+    : z(z)
+    {
+        std::cout << "this is contructor" << std::endl;
+    };
+
+    int &z;
+ 
+    int x = 0;
+    int y = 0;
+};
+
+void my_func1(const my_struct &st){
+    std::cout << "address of st input is " << &st << std::endl;
+
+    std::cout << "my_func1 " << st.x << std::endl;
+    // st.x = 50;
+}
+
+int& my_func2(){
+    static int x = 10;
+    std::cout << "address of x is " << &x << std::endl;
+    return x;
+}
+
 int main(int argc, char const *argv[])
 {
-    int a = 15;
-    int b = 20;
+    int var; 
 
-    add();
+    my_struct st(var);
 
-    swap(a,b);
+    my_struct& rfst = st; 
 
-    std::cout << "a changed to " << a << ", B changed to " << b << std::endl;
+    my_struct* ptr = nullptr; // NULL
 
-    int arr[] = {3, 80, 61, 27, 8};
+    std::cout << "value of ptr is " << ptr << std::endl;
 
-    BubleSort(arr,5);
+    std::cout << "address of st is " << &st << std::endl;
 
-    ShowArr(arr,5);
+    st.x = 100;
 
-    //test push
-    
+    std::cout << "temp is " << st.z << std::endl;
 
-    // std::cout << count(arr) << std::endl;
+    my_func1(st);
+    int &b = my_func2();
 
+    std::cout << "value of b is " << b << std::endl;
+    std::cout << "address of b is " << &b << std::endl;
+
+    std::cout << "st.x is " << st.x << std::endl;
     return 0;
 }
