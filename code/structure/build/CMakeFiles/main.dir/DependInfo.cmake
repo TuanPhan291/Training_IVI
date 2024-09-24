@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/d/Fresher_C++/baitap/structure/structure.cpp" "CMakeFiles/main.dir/structure.cpp.o" "gcc" "CMakeFiles/main.dir/structure.cpp.o.d"
+  "/mnt/d/Fresher_C++/assignment/code/structure/structure.cpp" "CMakeFiles/main.dir/structure.cpp.o" "gcc" "CMakeFiles/main.dir/structure.cpp.o.d"
   )
 
 # Targets to which this target links.

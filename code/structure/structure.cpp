@@ -1,28 +1,42 @@
 #include <iostream>
+#include <string.h>
 
-struct my_struct{
-
-    my_struct(){};
-
-    int a;
-    char b;
-    double c;
-
-    void show(){
-        std:: cout << "a = " << this->a << ", b = " << this->b << ", c = " << this->c << std::endl;
-    }
-};
-
-int main(int argc, char const *argv[])
+int my_func()
 {
-    my_struct my_st;
+    int x = 1;
+    int b = 2;
+    return x + b;
+}
 
-    my_st.a = 5;
-    my_st.b = 'c';
-    my_st.c = 3.4;
+struct myStruct
+{
+    myStruct()
+    {
+        std::cout << "My constructor" << std::endl;
+    }
+    char name;
+    int data;
+    myStruct *pS;
+}__attribute__((packed));
 
-    my_st.show();
+int main()
+{
 
-    // std::cout << sizeof(my_struct) << std::endl;
+    int x = 5;
+    int у = 6;
+    int z = 7;
+    int *Ptr = &x;
+    myStruct s;
+    myStruct *my_pointer = new myStruct();
+    my_pointer->name;
+    my_pointer->pS;
+    myStruct &s2 = *my_pointer;
+    s.pS;
+    s2.name;
+    s2.data;
+    std::cout << sizeof(myStruct) << std::endl;
+    std::cout << sizeof(s) << std::endl;
+    std::cout << sizeof(std::string) << std::endl;
+    std::cout << sizeof(int) << std::endl;
     return 0;
 }
