@@ -1,7 +1,7 @@
 CMakeFiles/main.dir/src/main.cpp.o: \
- /mnt/d/Fresher_C++/baitap/Mutip_project/src/main.cpp \
+ /mnt/d/Fresher_C++/assignment/code/cmake/Mutip_project/src/main.cpp \
  /usr/include/stdc-predef.h \
- /mnt/d/Fresher_C++/baitap/Mutip_project/include/add.h \
+ /mnt/d/Fresher_C++/assignment/code/cmake/Mutip_project/include/add.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -147,4 +147,4 @@ CMakeFiles/main.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/locale_facets.tcc \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc
+ /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/bitset

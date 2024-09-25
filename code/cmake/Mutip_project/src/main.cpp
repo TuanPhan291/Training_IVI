@@ -1,10 +1,13 @@
 #include "add.h"
+#include <bitset>
 
 int main(int argc, char const *argv[])
 {
-    int a = 4; 
-    int b = 6;
+    char a = 0b10000000;
 
-    std::cout << add(a,b) << std::endl;
+    a = a >> 3;
+
+    std::cout << std::bitset<8>(a) << "\n";
+
     return 0;
 }

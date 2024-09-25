@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/d/Fresher_C++/baitap/Mutip_project/src/add.cpp" "CMakeFiles/main.dir/src/add.cpp.o" "gcc" "CMakeFiles/main.dir/src/add.cpp.o.d"
-  "/mnt/d/Fresher_C++/baitap/Mutip_project/src/main.cpp" "CMakeFiles/main.dir/src/main.cpp.o" "gcc" "CMakeFiles/main.dir/src/main.cpp.o.d"
+  "/mnt/d/Fresher_C++/assignment/code/cmake/Mutip_project/src/add.cpp" "CMakeFiles/main.dir/src/add.cpp.o" "gcc" "CMakeFiles/main.dir/src/add.cpp.o.d"
+  "/mnt/d/Fresher_C++/assignment/code/cmake/Mutip_project/src/main.cpp" "CMakeFiles/main.dir/src/main.cpp.o" "gcc" "CMakeFiles/main.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links.

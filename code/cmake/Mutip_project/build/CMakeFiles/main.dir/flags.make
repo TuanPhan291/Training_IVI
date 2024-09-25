@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/d/Fresher_C++/baitap/Mutip_project/include
+CXX_INCLUDES = -I/mnt/d/Fresher_C++/assignment/code/cmake/Mutip_project/include
 
 CXX_FLAGS = 
 

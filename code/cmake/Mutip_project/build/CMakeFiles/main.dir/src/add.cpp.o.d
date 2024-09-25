@@ -1,7 +1,7 @@
 CMakeFiles/main.dir/src/add.cpp.o: \
- /mnt/d/Fresher_C++/baitap/Mutip_project/src/add.cpp \
+ /mnt/d/Fresher_C++/assignment/code/cmake/Mutip_project/src/add.cpp \
  /usr/include/stdc-predef.h \
- /mnt/d/Fresher_C++/baitap/Mutip_project/include/add.h \
+ /mnt/d/Fresher_C++/assignment/code/cmake/Mutip_project/include/add.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
